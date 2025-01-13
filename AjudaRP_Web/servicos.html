@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serviços - AjudaRP</title>
+    <link rel="stylesheet" href="css/servicos.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">
+            <img src="assets/image.png" alt="AjudaRP" class="banner">
+          <a href="index.html" class="years">AjudaRP</a>
+        </div>
+        <nav class="menu">
+          <a href="departamentos.html">Departamentos</a>
+          <a href="sobre.html">Sobre</a>
+          <a href="ajuda.html">Ajuda</a>
+        </nav>
+        <div class="actions">
+          <button class="add-botao">+ Abrir Pedido</button>
+          <a href="#" class="link">Cadastrar</a>
+          <button class="login-button">Entrar</button>
+        </div>
+        <button class="menu-toggle" aria-label="Abrir menu">
+          ☰
+        </button>
+      </header>
+    
+      <!-- Menu móvel -->
+      <div class="mobile-menu">
+        <a href="departamentos.html" class="link">Departamentos</a>
+        <a href="sobre.html" class="link">Sobre</a>
+        <a href="ajuda.html" class="link">Ajuda</a>
+        <button class="add-button">+ Abrir Pedido</button>
+        <a href="registrar.html" class="link">Cadastrar</a>
+        <button href="login.html" class="login-button">Entrar</button>
+      </div>
+      <script src="script/script.js"></script>
+<br>
+<br>
+    <div class="container">
+        <h1 class="form-title">Cadastro do Serviço</h1>
+        
+        <p class="form-description">
+            Preencha os campos abaixo com os dados referente ao serviço de Falta de Água, selecionado anteriormente para a finalização do mesmo.
+        </p>
+        
+        <p class="form-description">
+            Após isso aperte em finalizar e seu serviço será enchaminhado para a nossa central de atendimento.
+        </p>
+
+        <br>
+
+        <form>
+            <div class="form-field">
+                <label class="form-label">Localização</label>
+                <input type="text" class="form-input">
+            </div>
+
+            <div class="form-field">
+                <label class="form-label">Descrição</label>
+                <input type="text" class="form-input">
+            </div>
+
+            <div class="form-field">
+                <label class="form-label">Imagem</label>
+                <div class="file-input-container">
+                    <input type="file" class="file-input-button">Escolher arquivo</button>
+                    <!-- <span style="margin-left: 10px; color: #666;">Nenhum arquivo escolhido</span> -->
+                </div>
+            </div>
+
+            <button type="submit" class="submit-button">Cadastrar</button>
+        </form>
+    </div>
+</body>
+</html>
